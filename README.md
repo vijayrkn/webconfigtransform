@@ -15,6 +15,13 @@ Original Web.config:
 </configuration>
 ```
 
+Transform files are here:
+Configuration: https://github.com/vijayrkn/webconfigtransform/blob/master/Web.Release.config
+Profile: https://github.com/vijayrkn/webconfigtransform/blob/master/Web.FolderProfile.config
+Environment: https://github.com/vijayrkn/webconfigtransform/blob/master/Web.Staging.config
+Custom : https://github.com/vijayrkn/webconfigtransform/blob/master/Custom.transform
+
+
 `msbuild webconfigtransform.csproj /p:DeployOnBuild=true /p:Configuration=Release /p:PublishProfile=FolderProfile /p:EnvironmentName=Staging /p:CustomTransformFileName=custom.transform`
 
 Running the above command will transform the web.config to below. This applies the transform at the following levels: Configuration, Profile, Environment & Custom
