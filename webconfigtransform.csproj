@@ -6,10 +6,12 @@
 
   <ItemGroup>
     <None Remove="Custom.transform" />
+    <None Remove="MyCustomTransforms\Custom.transform" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="Custom.transform" />
+    <Content Include="MyCustomTransforms\Custom.transform" />
   </ItemGroup>
 
   <ItemGroup>
