@@ -4,7 +4,7 @@
     <system.webServer>
       <aspNetCore>
         <environmentVariables xdt:Transform="InsertIfMissing">
-          <environmentVariable  name="CustomFolder_CustomSpecific" value="SomeCustomValueFromCustomFolder" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
+          <environmentVariable  name="7_CustomFolder_CustomSpecific" value="SomeCustomValueFromCustomFolder" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
         </environmentVariables>
       </aspNetCore>
     </system.webServer>
